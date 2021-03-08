@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9D6965625F60543006885A8 /* Memoji_image_genetatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6965525F60543006885A8 /* Memoji_image_genetatorApp.swift */; };
+		F9D6965825F60543006885A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6965725F60543006885A8 /* ContentView.swift */; };
+		F9D6965A25F60546006885A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D6965925F60546006885A8 /* Assets.xcassets */; };
+		F9D6965D25F60546006885A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D6965C25F60546006885A8 /* Preview Assets.xcassets */; };
+		F9D6965F25F60546006885A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6965E25F60546006885A8 /* Persistence.swift */; };
+		F9D6966225F60546006885A8 /* Memoji_image_genetator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9D6966025F60546006885A8 /* Memoji_image_genetator.xcdatamodeld */; };
+		F9D6966D25F60546006885A8 /* Memoji_image_genetatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6966C25F60546006885A8 /* Memoji_image_genetatorTests.swift */; };
+		F9D6967825F60546006885A8 /* Memoji_image_genetatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6967725F60546006885A8 /* Memoji_image_genetatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9D6966925F60546006885A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D6964A25F60543006885A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D6965125F60543006885A8;
+			remoteInfo = "Memoji image genetator";
+		};
+		F9D6967425F60546006885A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D6964A25F60543006885A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9D6965125F60543006885A8;
+			remoteInfo = "Memoji image genetator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9D6965225F60543006885A8 /* Memoji image genetator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memoji image genetator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D6965525F60543006885A8 /* Memoji_image_genetatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoji_image_genetatorApp.swift; sourceTree = "<group>"; };
+		F9D6965725F60543006885A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9D6965925F60546006885A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9D6965C25F60546006885A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F9D6965E25F60546006885A8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F9D6966125F60546006885A8 /* Memoji_image_genetator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memoji_image_genetator.xcdatamodel; sourceTree = "<group>"; };
+		F9D6966325F60546006885A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D6966825F60546006885A8 /* Memoji image genetatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memoji image genetatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D6966C25F60546006885A8 /* Memoji_image_genetatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoji_image_genetatorTests.swift; sourceTree = "<group>"; };
+		F9D6966E25F60546006885A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D6967325F60546006885A8 /* Memoji image genetatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memoji image genetatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D6967725F60546006885A8 /* Memoji_image_genetatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoji_image_genetatorUITests.swift; sourceTree = "<group>"; };
+		F9D6967925F60546006885A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D6964F25F60543006885A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6966525F60546006885A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6967025F60546006885A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D6964925F60543006885A8 = {
+			isa = PBXGroup;
+			children = (
+				F9D6965425F60543006885A8 /* Memoji image genetator */,
+				F9D6966B25F60546006885A8 /* Memoji image genetatorTests */,
+				F9D6967625F60546006885A8 /* Memoji image genetatorUITests */,
+				F9D6965325F60543006885A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D6965325F60543006885A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6965225F60543006885A8 /* Memoji image genetator.app */,
+				F9D6966825F60546006885A8 /* Memoji image genetatorTests.xctest */,
+				F9D6967325F60546006885A8 /* Memoji image genetatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D6965425F60543006885A8 /* Memoji image genetator */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6965525F60543006885A8 /* Memoji_image_genetatorApp.swift */,
+				F9D6965725F60543006885A8 /* ContentView.swift */,
+				F9D6965925F60546006885A8 /* Assets.xcassets */,
+				F9D6965E25F60546006885A8 /* Persistence.swift */,
+				F9D6966325F60546006885A8 /* Info.plist */,
+				F9D6966025F60546006885A8 /* Memoji_image_genetator.xcdatamodeld */,
+				F9D6965B25F60546006885A8 /* Preview Content */,
+			);
+			path = "Memoji image genetator";
+			sourceTree = "<group>";
+		};
+		F9D6965B25F60546006885A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6965C25F60546006885A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9D6966B25F60546006885A8 /* Memoji image genetatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6966C25F60546006885A8 /* Memoji_image_genetatorTests.swift */,
+				F9D6966E25F60546006885A8 /* Info.plist */,
+			);
+			path = "Memoji image genetatorTests";
+			sourceTree = "<group>";
+		};
+		F9D6967625F60546006885A8 /* Memoji image genetatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6967725F60546006885A8 /* Memoji_image_genetatorUITests.swift */,
+				F9D6967925F60546006885A8 /* Info.plist */,
+			);
+			path = "Memoji image genetatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D6965125F60543006885A8 /* Memoji image genetator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D6967C25F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetator" */;
+			buildPhases = (
+				F9D6964E25F60543006885A8 /* Sources */,
+				F9D6964F25F60543006885A8 /* Frameworks */,
+				F9D6965025F60543006885A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memoji image genetator";
+			productName = "Memoji image genetator";
+			productReference = F9D6965225F60543006885A8 /* Memoji image genetator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9D6966725F60546006885A8 /* Memoji image genetatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D6967F25F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetatorTests" */;
+			buildPhases = (
+				F9D6966425F60546006885A8 /* Sources */,
+				F9D6966525F60546006885A8 /* Frameworks */,
+				F9D6966625F60546006885A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D6966A25F60546006885A8 /* PBXTargetDependency */,
+			);
+			name = "Memoji image genetatorTests";
+			productName = "Memoji image genetatorTests";
+			productReference = F9D6966825F60546006885A8 /* Memoji image genetatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9D6967225F60546006885A8 /* Memoji image genetatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D6968225F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetatorUITests" */;
+			buildPhases = (
+				F9D6966F25F60546006885A8 /* Sources */,
+				F9D6967025F60546006885A8 /* Frameworks */,
+				F9D6967125F60546006885A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9D6967525F60546006885A8 /* PBXTargetDependency */,
+			);
+			name = "Memoji image genetatorUITests";
+			productName = "Memoji image genetatorUITests";
+			productReference = F9D6967325F60546006885A8 /* Memoji image genetatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D6964A25F60543006885A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F9D6965125F60543006885A8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F9D6966725F60546006885A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F9D6965125F60543006885A8;
+					};
+					F9D6967225F60546006885A8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F9D6965125F60543006885A8;
+					};
+				};
+			};
+			buildConfigurationList = F9D6964D25F60543006885A8 /* Build configuration list for PBXProject "Memoji image genetator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9D6964925F60543006885A8;
+			productRefGroup = F9D6965325F60543006885A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D6965125F60543006885A8 /* Memoji image genetator */,
+				F9D6966725F60546006885A8 /* Memoji image genetatorTests */,
+				F9D6967225F60546006885A8 /* Memoji image genetatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D6965025F60543006885A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D6965D25F60546006885A8 /* Preview Assets.xcassets in Resources */,
+				F9D6965A25F60546006885A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6966625F60546006885A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6967125F60546006885A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D6964E25F60543006885A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D6965F25F60546006885A8 /* Persistence.swift in Sources */,
+				F9D6965825F60543006885A8 /* ContentView.swift in Sources */,
+				F9D6966225F60546006885A8 /* Memoji_image_genetator.xcdatamodeld in Sources */,
+				F9D6965625F60543006885A8 /* Memoji_image_genetatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6966425F60546006885A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D6966D25F60546006885A8 /* Memoji_image_genetatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D6966F25F60546006885A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D6967825F60546006885A8 /* Memoji_image_genetatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9D6966A25F60546006885A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D6965125F60543006885A8 /* Memoji image genetator */;
+			targetProxy = F9D6966925F60546006885A8 /* PBXContainerItemProxy */;
+		};
+		F9D6967525F60546006885A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9D6965125F60543006885A8 /* Memoji image genetator */;
+			targetProxy = F9D6967425F60546006885A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9D6967A25F60546006885A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9D6967B25F60546006885A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9D6967D25F60546006885A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Memoji image genetator/Preview Content\"";
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Memoji image genetator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9D6967E25F60546006885A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Memoji image genetator/Preview Content\"";
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Memoji image genetator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9D6968025F60546006885A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				INFOPLIST_FILE = "Memoji image genetatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoji image genetator.app/Memoji image genetator";
+			};
+			name = Debug;
+		};
+		F9D6968125F60546006885A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				INFOPLIST_FILE = "Memoji image genetatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memoji image genetator.app/Memoji image genetator";
+			};
+			name = Release;
+		};
+		F9D6968325F60546006885A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				INFOPLIST_FILE = "Memoji image genetatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memoji image genetator";
+			};
+			name = Debug;
+		};
+		F9D6968425F60546006885A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE7JK43P5K;
+				INFOPLIST_FILE = "Memoji image genetatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memoji image genetator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D6964D25F60543006885A8 /* Build configuration list for PBXProject "Memoji image genetator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D6967A25F60546006885A8 /* Debug */,
+				F9D6967B25F60546006885A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D6967C25F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D6967D25F60546006885A8 /* Debug */,
+				F9D6967E25F60546006885A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D6967F25F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D6968025F60546006885A8 /* Debug */,
+				F9D6968125F60546006885A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D6968225F60546006885A8 /* Build configuration list for PBXNativeTarget "Memoji image genetatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D6968325F60546006885A8 /* Debug */,
+				F9D6968425F60546006885A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9D6966025F60546006885A8 /* Memoji_image_genetator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9D6966125F60546006885A8 /* Memoji_image_genetator.xcdatamodel */,
+			);
+			currentVersion = F9D6966125F60546006885A8 /* Memoji_image_genetator.xcdatamodel */;
+			path = Memoji_image_genetator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F9D6964A25F60543006885A8 /* Project object */;
+}
