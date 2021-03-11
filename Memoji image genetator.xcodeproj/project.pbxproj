@@ -49,6 +49,7 @@
 		F9D6967325F60546006885A8 /* Memoji image genetatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memoji image genetatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D6967725F60546006885A8 /* Memoji_image_genetatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoji_image_genetatorUITests.swift; sourceTree = "<group>"; };
 		F9D6967925F60546006885A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D6968825F6056F006885A8 /* Memoji image genetator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Memoji image genetator.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		F9D6965425F60543006885A8 /* Memoji image genetator */ = {
 			isa = PBXGroup;
 			children = (
+				F9D6968825F6056F006885A8 /* Memoji image genetator.entitlements */,
 				F9D6965525F60543006885A8 /* Memoji_image_genetatorApp.swift */,
 				F9D6965725F60543006885A8 /* ContentView.swift */,
 				F9D6965925F60546006885A8 /* Assets.xcassets */,
@@ -425,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Memoji image genetator/Memoji image genetator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memoji image genetator/Preview Content\"";
 				DEVELOPMENT_TEAM = YE7JK43P5K;
@@ -437,6 +440,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Memoji image genetator/Memoji image genetator.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Memoji image genetator/Preview Content\"";
 				DEVELOPMENT_TEAM = YE7JK43P5K;
@@ -459,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "memoji-image-genetator.Memoji-image-genetator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
